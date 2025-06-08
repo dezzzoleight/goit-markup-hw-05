@@ -440,7 +440,7 @@ button {
 .footer-item {
     display: flex;
     flex-direction: column;
- 
+
 }
 
 .footer-social {
@@ -458,18 +458,18 @@ button {
     padding-bottom: 8px;
     padding-top: 8px;
     border-color: white;
-    color:white;
+    color: white;
 }
 
 .footer-btn {
-    border:none;
+    border: none;
     background-color: #4D5AE5;
     width: 165px;
     height: 40px;
     margin-left: 24px;
     padding-left: 24px;
     padding-right: 64px;
-    color:white;
+    color: white;
     border-radius: 4px;
     position: relative;
     display: flex;
@@ -482,7 +482,7 @@ button {
     display: flex;
     align-items: baseline;
     gap: 8px;
-    
+
 }
 
 .modal-checkbox input[type="checkbox"] {
@@ -491,41 +491,41 @@ button {
 }
 
 
-.checking-sp {
-text-decoration: underline;
-color: #4D5AE5;
-cursor: pointer;
+.checkbox-span {
+    text-decoration: underline;
+    color: #4D5AE5;
+    cursor: pointer;
 }
 
 
 .policy-link {
     text-decoration: underline;
-        color: #4D5AE5;
-        cursor: pointer;
+    color: #4D5AE5;
+    cursor: pointer;
 }
 
-.send-btn {
+.send-buton {
     height: 56px;
     width: 169px;
     background-color: #4D5AE5;
     border-radius: 4px;
     border-color: transparent;
     color: white;
-    
+
 }
 
 .footer-btn-svg {
     position: absolute;
-   right: 24px;
-   top:8px;
+    right: 24px;
+    top: 8px;
 }
 
 .button-svg-format {
-    position: relative; 
-    }
+    position: relative;
+}
 
-.footer-form{
-    display: flex; 
+.footer-form {
+    display: flex;
 }
 
 .footer-input::placeholder {
@@ -535,10 +535,10 @@ cursor: pointer;
     line-height: 24px;
     letter-spacing: 4%;
     vertical-align: middle;
-    color:white
+    color: white
 }
 
- 
+
 .footer-div-logo {
     margin-right: 120px;
 }
@@ -608,7 +608,7 @@ cursor: pointer;
 /* Modal */
 
 .backdrop {
-   width: 100%;
+    width: 100%;
     height: 100%;
     background: rgba(46, 47, 66, 0.4);
     position: fixed;
@@ -619,43 +619,43 @@ cursor: pointer;
 }
 
 .modal {
-  width: 408px;
-  min-height: 584px;
-  background-color: #FCFCFC;
-  border-radius: 4px;
-  padding: 24px;
-  position:absolute
+    width: 408px;
+    min-height: 584px;
+    background-color: #FCFCFC;
+    border-radius: 4px;
+    padding: 24px;
+    position: absolute
 }
 
 .modal-close {
-position: absolute;
-border: none;
-left:360px;
-top: 24px;
-border-radius: 50%;
-background-color: #E7E9FC;
-width: 24px;
-height: 24px;
-display: flex;
-align-items: center;
-justify-content: center;
-border: 1px solid #0000001A;
+    position: absolute;
+    border: none;
+    left: 360px;
+    top: 24px;
+    border-radius: 50%;
+    background-color: #E7E9FC;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0000001A;
 }
 
 .model-close-svg {
     width: 8px;
     height: 8px;
-   
+
 }
 
-.modal-title { 
+.modal-title {
     text-align: left;
     font-family: Roboto;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 2%;
-        text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: center;
     padding-top: 48px;
     margin-bottom: 16px;
 }
@@ -664,21 +664,21 @@ border: 1px solid #0000001A;
 .modal-input {
     width: 100%;
     width: 360px;
-     height: 40px;
-        border-radius: 4px;
-        border-width: 1px;
-        border: 1px solid #2E2F4266 ;
-        background-color: transparent;
-        padding-left: 38px;
+    height: 40px;
+    border-radius: 4px;
+    border-width: 1px;
+    border: 1px solid #2E2F4266;
+    background-color: transparent;
+    padding-left: 38px;
 }
 
 .modal-input:focus {
-    border-color:#4D5AE5;
+    border-color: #4D5AE5;
 
 }
 
 .mod-textw {
-font-family: Roboto;
+    font-family: Roboto;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -690,15 +690,15 @@ font-family: Roboto;
 }
 
 
-.modal-label-input{
+.modal-label-input {
     font-family: Roboto;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 14px;
-        letter-spacing: 4%;
-        color: #8E8F99;
-        display:inline-block;
-        margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 4%;
+    color: #8E8F99;
+    display: inline-block;
+    margin-bottom: 4px;
 }
 
 .modal-field {
@@ -709,16 +709,16 @@ font-family: Roboto;
 
 
 .modal-names-svg-icon {
-    position:absolute;
-    left:16px;
-    top:8px;
+    position: absolute;
+    left: 16px;
+    top: 8px;
 
 }
 
 
 
 .modal-input-cover {
-position: relative;
+    position: relative;
 }
 
 
@@ -728,7 +728,7 @@ position: relative;
     resize: none;
     padding-left: 16px;
     padding-top: 8px;
-border-radius: 4px;
+    border-radius: 4px;
     border-width: 1px;
     border: 1px solid #2E2F4266;
     background-color: transparent;
@@ -742,7 +742,7 @@ border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
-    fill:transparent
+    fill: transparent
 }
 
 .modal-footer {
